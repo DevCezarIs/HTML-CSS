@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Pedido Pizza</h1>
+
+    <form method="post" action="teste.jsp">
+        Nome: <input type="text" name="Nome">
+        <br>
+        Email: <input type="email" name="Email"> <br>
+        Tamanho: <input type="radio" name="tamanho" value ="g" checked> Grande
+        <input type="radio" name="tamanho" value ="m"> Médio
+        <input type="radio" name="tamanho" value ="p"> Pequeno
+        <br>
+            Sabor: <select name="Sabor">
+            <option>Calabresa</option>
+            <option>Margarita</option>
+            <option>Napolitana</option>
+
+        </select>
+        <br>
+        Adicionais: 
+        <br><input type="checkbox" name="Borda" value="sim"> Borda
+        <input type="checkbox" name="Queijo" value="sim"> Queijo extra
+        <br>
+        Data Entrega: <input type="date" name="dataEntrega">
+        <br>
+        Observações: <textarea name="mensagem" rows="16" cols="60"> </textarea>
+        <br>
+        <input type="submit"> 
+
+    </form>
+</body>
+</html>
