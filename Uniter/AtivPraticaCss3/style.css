@@ -1,0 +1,19 @@
+.alternada {
+    list-style:lower-greek;
+    font-size: 30px;
+    width: fit-content;
+    
+}
+
+.alternada li:nth-child(odd) {
+    background-color:blue ;
+
+}
+
+.alternada li:nth-child(even) {
+    background-color:crimson;
+}
+
+.alternada li:hover {
+    font-weight: bolder;
+}

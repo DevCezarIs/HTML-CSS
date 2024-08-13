@@ -1,0 +1,38 @@
+.quadrado {
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color:darkgoldenrod;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.quadrado1 {
+    background-color: darkgray;
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+.quadrado2 {
+    background-color: gold;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.quadrado3 {
+    background-color:black ;
+    color: aliceblue;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.quadrado4 {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}

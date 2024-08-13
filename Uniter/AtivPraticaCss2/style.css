@@ -1,0 +1,15 @@
+.image {
+    background: url("download.jpeg") no-repeat;
+    width: 400px;
+    height: 350px;
+    display: block;
+    background-size: contain;
+}
+
+.image:hover {
+    background-position: 0px 50px;
+}
+
+.image:active{
+    background-position: 50px 50px;
+}
