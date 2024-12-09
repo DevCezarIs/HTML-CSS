@@ -1,0 +1,23 @@
+h1{
+    background: darkblue;
+    color: white;
+}
+div{
+    background: lightblue;
+    color:darkblue;
+    
+}
+
+li{
+    background:lightgreen;
+}
+
+#Txt-boas-vindas{
+    background: blue;
+    color: aliceblue;
+}
+
+#explicando-seletores{
+    background: blueviolet;
+    color: aliceblue;
+}
