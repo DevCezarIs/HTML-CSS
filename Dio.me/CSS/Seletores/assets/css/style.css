@@ -1,23 +1,7 @@
-h1{
-    background: darkblue;
-    color: white;
-}
-div{
-    background: lightblue;
-    color:darkblue;
-    
+.seletores-mais-comuns{
+    color: red;
 }
 
-li{
-    background:lightgreen;
-}
-
-#Txt-boas-vindas{
-    background: blue;
-    color: aliceblue;
-}
-
-#explicando-seletores{
-    background: blueviolet;
-    color: aliceblue;
+.texto-maiusculo {
+    text-transform: uppercase;
 }
