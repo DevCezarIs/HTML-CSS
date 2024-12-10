@@ -5,3 +5,9 @@
 .texto-maiusculo {
     text-transform: uppercase;
 }
+
+*{
+    background-color: black;
+    color:white;
+}
+
