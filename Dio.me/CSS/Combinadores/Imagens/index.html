@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tabalhando com imagem</title>
+    <style>
+        h1, p, code {
+            color: white;
+        }
+        body{
+            background: black;
+        }
+        div{
+            width: 200px;
+            height: 300px;
+            border: 5px solid green;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        #countain{
+            object-fit: contain;
+        }
+
+        #cover {
+            object-fit: cover
+        }
+
+        #none {
+            object-fit: none;
+        }
+
+        #scale-down{
+            object-fit: scale-down;
+        }
+        
+         
+        </style>
+</head>
+    <body>
+        <h1>Propriedade <code>object-fit</code></h1>
+            <code>object-fit: fill</code> (padrão)
+        <div>
+            <img src="https://raichu-uploads.s3.amazonaws.com/logo_digital-innovation-one_puYuwk.png" id="fill">
+        </div>
+        <br>
+
+        <code>object-fit: countain</code> 
+    <div>
+        <img src="https://raichu-uploads.s3.amazonaws.com/logo_digital-innovation-one_puYuwk.png" id="countain">
+    </div>
+    <br>
+    <code>object-fit: cover</code>
+    <div>
+        <img src="https://raichu-uploads.s3.amazonaws.com/logo_digital-innovation-one_puYuwk.png" id="cover">
+    </div>
+    <br>
+    <code>object-fit: none</code>
+    <div>
+        <img src="https://raichu-uploads.s3.amazonaws.com/logo_digital-innovation-one_puYuwk.png" id="none">
+    </div>
+
+    <br>
+    <code>object-fit: scale-down</code>
+    <div>
+        <img src="https://raichu-uploads.s3.amazonaws.com/logo_digital-innovation-one_puYuwk.png" id="scale-down">
+    </div>
+</body>
+</body>
+</html>
